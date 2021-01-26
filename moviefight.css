@@ -1,0 +1,109 @@
+.header-div {
+  background-image: linear-gradient(to right, #fc00ff, #00dbde);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+#left-autocomplete{
+  padding: 2%;
+}
+
+#right-autocomplete{
+  padding: 2%;
+}
+
+.p-2{
+  margin-top: 10px;
+}
+
+.searchBar {
+  margin-bottom: 10px;
+}
+
+#left-autocomplete input {
+  width: 250px;
+  border-color: #fc00ff;
+  border-radius: 5px;
+}
+
+#right-autocomplete input {
+  width: 250px;
+  border-color: #00dbde;
+  border-radius: 5px;
+}
+
+a{
+  cursor: pointer;
+}
+/* ------------------------------------------------------------ */
+.dropdown img {
+  width: 40px;
+  height: 40px;
+}
+
+.scroll {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 5px;
+  border: 0px solid rgba(0,0,0,0);
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+.left-summary {
+  padding: 0% 2%;
+}
+
+.right-summary {
+  padding: 0% 2%;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.tutorial {
+  max-width: 500px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tutorial p {
+  margin-bottom: 0px;
+}
+
+/* scrollbar properties */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#fc00ff, #00dbde);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fc00ff;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+@media (max-width: 576px) {
+  input {
+    width: 100%;
+  }
+
+  .tutorial {
+    margin-top: 0px;
+  }
+
+}

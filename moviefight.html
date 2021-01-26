@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Fight</title>
+    <script src="https://kit.fontawesome.com/78e4e79489.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="moviefight.css">
+  </head>
+  <body>
+  <div class="main-div">
+    <div class="container-fluid header-div">
+      <h1 class="title">
+      Movie Fight
+      <span class="icon">
+        <i class="fas fa-film"></i>
+      </span>
+      </h1>
+    </div>
+
+    <div class="container">
+      <div class="d-flex flex-md-row flex-column justify-content-between">
+        <div class="p-2">
+          <div id="left-autocomplete" class="searchBar"></div>
+          <div class="left-summary"></div>
+        </div>
+        <div class="p-2">
+          <div id="right-autocomplete" class="searchBar"></div>
+          <div class="right-summary"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-dark tutorial container" role="alert">
+      <h4 class="alert-heading">Search movie names on both sides</h4>
+      <p>Find out which movie is hotter!!</p>
+    </div>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="autocomplete.js"> </script>
+    <script src="moviefight.js"> </script>
+  </body>
+</html>
